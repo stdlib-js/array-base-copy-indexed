@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy-indexed"
-click B href "https://github.com/stdlib-js/array-base-copy-indexed/tree/main"
-click C href "https://github.com/stdlib-js/array-base-copy-indexed/tree/production"
-click D href "https://github.com/stdlib-js/array-base-copy-indexed/tree/esm"
-click E href "https://github.com/stdlib-js/array-base-copy-indexed/tree/deno"
-click F href "https://github.com/stdlib-js/array-base-copy-indexed/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy-indexed"
+%% click B href "https://github.com/stdlib-js/array-base-copy-indexed/tree/main"
+%% click C href "https://github.com/stdlib-js/array-base-copy-indexed/tree/production"
+%% click D href "https://github.com/stdlib-js/array-base-copy-indexed/tree/esm"
+%% click E href "https://github.com/stdlib-js/array-base-copy-indexed/tree/deno"
+%% click F href "https://github.com/stdlib-js/array-base-copy-indexed/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy-indexed
