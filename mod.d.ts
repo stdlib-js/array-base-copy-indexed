@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -16,34 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Copies the elements of an indexed array-like object to a new "generic" array.
 *
-* @param {Collection} x - input array
-* @returns {Array} output array
+* @param x - array length
+* @returns output array
 *
 * @example
-* var out = copy( [ 1, 2, 3 ] );
+* var x = [ 1, 2, 3 ];
+*
+* var out = copy( x );
 * // returns [ 1, 2, 3 ]
 */
-function copy( x ) {
-	var out;
-	var len;
-	var i;
-
-	len = x.length;
-	out = [];
-	for ( i = 0; i < len; i++ ) {
-		out.push( x[ i ] ); // ensure "fast" elements
-	}
-	return out;
-}
+declare function copy<T = unknown>( x: Collection<T> ): Array<T>;
 
 
 // EXPORTS //
 
-module.exports = copy;
+export = copy;
