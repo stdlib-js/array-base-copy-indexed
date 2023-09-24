@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-copy-indexed",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Copy the elements of an indexed array-like object to a new generic array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-base-ones": "^0.0.2",
+    "@stdlib/array-base-ones": "^0.1.0",
     "@stdlib/array-filled-by": "^0.0.2",
-    "@stdlib/assert-is-array": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/assert-is-array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
