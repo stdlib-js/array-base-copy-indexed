@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-copy-indexed/tags). For example,
+
+```javascript
 import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.1.0-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ var bool = ( out === x );
 ```javascript
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.1.0-deno/mod.js';
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@deno/mod.js';
 
 // Create a Float64Array:
 var arr = filledBy( 10, 'float64', randu );
