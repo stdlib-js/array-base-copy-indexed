@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@deno/mod.js';
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.2.0-deno/mod.js';
 ```
 
 #### copyIndexed( x )
@@ -96,7 +96,7 @@ var bool = ( out === x );
 ```javascript
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@deno/mod.js';
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.2.0-deno/mod.js';
 
 // Create a Float64Array:
 var arr = filledBy( 10, 'float64', randu );
