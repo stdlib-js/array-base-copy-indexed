@@ -97,7 +97,7 @@ var bool = ( out === x );
 
 ## Notes
 
--   An _indexed_ array-like object is a data structure in which one retrieves elements via integer indices using bracket `[]` notation (e.g., `Float64Array`, `Int32Array`, `Array`, etc). This is in contrast to an _accessor_ array-like object in which one retrieves elements using `get` and `set` methods (e.g., `Complex64Array` and `Complex128Array`).
+-   An _indexed_ array-like object is a data structure in which one retrieves elements via integer indices using bracket `[]` notation (e.g., `Float64Array`, `Int32Array`, `Array`, etc). This is in contrast to an _accessor_ array-like object in which one retrieves elements using `get` and `set` methods (e.g., [`Complex64Array`][@stdlib/array/complex64] and [`Complex128Array`][@stdlib/array/complex128]).
 
 </section>
 
@@ -188,8 +188,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-copy-indexed.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-copy-indexed
 
-[test-image]: https://github.com/stdlib-js/array-base-copy-indexed/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/array-base-copy-indexed/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/array-base-copy-indexed/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-copy-indexed/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-copy-indexed/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-copy-indexed?branch=main
@@ -220,6 +220,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-copy-indexed/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-copy-indexed/main/LICENSE
+
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
+
+[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex128
 
 </section>
 
