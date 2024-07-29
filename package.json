@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-copy-indexed",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Copy the elements of an indexed array-like object to a new generic array.",
   "license": "Apache-2.0",
   "author": {
@@ -40,15 +40,15 @@
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-ones": "^0.2.1",
+    "@stdlib/array-base-ones": "^0.2.2",
     "@stdlib/array-filled-by": "^0.2.1",
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/math-base-special-pow": "^0.2.1",
+    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
