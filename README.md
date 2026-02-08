@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@esm/index.mjs';
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.2.3-esm/index.mjs';
 ```
 
 #### copyIndexed( x )
@@ -101,7 +101,7 @@ var bool = ( out === x );
 
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@esm/index.mjs';
+import copyIndexed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy-indexed@v0.2.3-esm/index.mjs';
 
 // Create a Float64Array:
 var arr = filledBy( 10, 'float64', randu );
